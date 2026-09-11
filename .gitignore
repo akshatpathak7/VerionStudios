@@ -44,3 +44,6 @@ next-env.d.ts
 /.codex/
 /outputs/
 /work/
+
+# Local alias required only by the Sites publishing tools.
+/.openai

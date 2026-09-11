@@ -9,3 +9,7 @@ Edit `app/studio.ts` to change the service copy, logo path, and contact email ad
 ## Development
 
 Run `npm run dev` for the local preview and `npm run build` for a production build. Motion can be paused on the page and automatically stops when reduced motion is preferred.
+
+## Hosting configuration
+
+Hosting settings live in `.hosting/hosting.json`. The build emits the deployment provider’s required metadata inside ignored `dist/` output. For Sites publishing tools that require the old path, create an ignored local alias with `ln -s .hosting .openai`; the alias is not part of the repository.
