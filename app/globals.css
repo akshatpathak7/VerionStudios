@@ -28,3 +28,9 @@
  .frame-caption>span{max-width:none;flex:1 1 220px}
  .footer>span,.footer>a:last-child{font-size:0.75rem}
 }
+
+.contact-emails{display:flex;flex-direction:column;gap:8px;min-width:0}.contact-emails .email-link{min-height:44px;font-size:1rem}.email-link span{overflow-wrap:anywhere}.email-link svg{flex-shrink:0}.email-link:hover{color:var(--primary)}
+
+/* Original supplied artwork, framed within a square viewport. */
+.brand img{width:52px;height:52px;object-fit:contain;mix-blend-mode:screen;flex-shrink:0}
+@media(max-width:760px){.brand img{width:42px;height:42px}}

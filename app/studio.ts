@@ -1,8 +1,8 @@
-// Replace this logo path and set email when final brand assets are ready.
+// Replace this logo path and update contact emails when needed.
 export const studio = {
  name: "Verion Studios",
- logo: "/verion-mark.svg",
- email: "",
+ logo: "/verion-logo.svg",
+ emails: ["akshat.pathak.011@gmail.com", "jatinjoshi1005@gmail.com"],
  intro: "Podcasts. Reels. Stories that stick. We turn raw footage into compelling video — and ambitious ideas into digital experiences.",
  editing: [
   {title:"Podcasts",description:"Keep the conversation flowing. Clean cuts, balanced sound, and a polished finish that puts your voice first.",tags:["Multicam editing","Audio cleanup","Highlight clips"]},
