@@ -4,7 +4,7 @@ A single-page video editing and digital services studio website, built with Reac
 
 ## Update content
 
-Edit `app/studio.ts` to change the service copy, logo path, and contact email addresses. `public/verion-logo.svg` frames the original supplied JPEG artwork without redrawing it; update the configuration path to replace it. The cinematic image is AI-generated concept imagery, not client work.
+Edit `app/studio.ts` to change the service copy, logo path, and contact email addresses. `public/verion-logo.svg` frames the original supplied JPEG artwork without redrawing it; update the configuration path to replace it. The editing graphic uses simple layout shapes and an illustrative timeline.
 
 ## Development
 
