@@ -3,7 +3,7 @@ export const studio = {
  name: "Verion Studios",
  logo: "/verion-logo.svg",
  emails: ["akshat.pathak.011@gmail.com", "jatinjoshi1005@gmail.com"],
- intro: "Send us your footage and tell us what you have in mind. We’ll handle the editing, whether it’s a podcast, a reel, or a longer video. Need a website or dashboard? We can help with that too.",
+ intro: "We edit podcasts, reels, and long-form videos for creators and businesses. Send us your footage, references, and timeline to discuss your project.",
  editing: [
   {title:"Podcasts",description:"We edit single-camera and multicamera podcasts, clean up the audio, and prepare highlight clips for social media.",tags:["Multicam editing","Audio cleanup","Highlight clips"]},
   {title:"Reels & short-form",description:"We prepare short videos for Instagram, YouTube, and other social platforms, with clear captions and pacing suited to the content.",tags:["Reels & Shorts","Captions","Social content"]},
