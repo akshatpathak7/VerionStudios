@@ -13,3 +13,7 @@ Run `npm run dev` for the local preview and `npm run build` for a production bui
 ## Hosting configuration
 
 Hosting settings live in `.hosting/hosting.json`. The build emits the deployment provider’s required metadata inside ignored `dist/` output. For Sites publishing tools that require the old path, create an ignored local alias with `ln -s .hosting .openai`; the alias is not part of the repository.
+
+## Vercel
+
+Import `akshatpathak7/VerionStudios` into Vercel with the repository root as the project directory. `vercel.json` selects Next.js and its native build, while the existing local preview and Sites build scripts remain available. No environment variables are required for this landing page.
