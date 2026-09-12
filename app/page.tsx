@@ -1,6 +1,7 @@
 import { ArrowUpRight, ArrowDown, Code2, PanelsTopLeft } from "lucide-react";
 import { SiteHeader, SiteFooter } from "./site-chrome";
 import { studio } from "./studio";
+import { ReviewForm } from "./review-form";
 export default function Home() {
  return <div id="top" className="site">
   <a className="skip-link" href="#main">Skip to content</a>
@@ -24,6 +25,7 @@ export default function Home() {
    <section id="editing" className="editing wrap section"><div className="section-heading"><div><div className="eyebrow">01 / VIDEO EDITING</div><h2>Editing for the<br/><span>content you create</span></h2></div><p>We edit podcasts, social videos, and longer productions, with attention to pacing, sound, and the format you need.</p></div><div className="services">{studio.editing.map((service,i)=><article className="service" key={service.title}><div className="service-top"><span>0{i+1}</span></div><h3>{service.title}</h3><p>{service.description}</p><div className="service-tags">{service.tags.map(tag=><span key={tag}>{tag}</span>)}</div></article>)}</div></section>
    <section id="digital" className="digital section"><div className="wrap"><div className="eyebrow">02 / WEB DEVELOPMENT</div><div className="digital-content"><h2>Custom websites<br/><span>and dashboards</span></h2><div className="digital-services">{studio.digital.map((service,i)=><article key={service.title}><span className="code-mark" aria-hidden="true">{i===0?<Code2 size={25}/>:<PanelsTopLeft size={25}/>}</span><div><h3>{service.title}</h3><p>{service.description}</p></div></article>)}</div></div></div></section>
    <section id="contact" className="contact wrap section"><div className="eyebrow">03 / CONTACT</div><div className="contact-row"><h2>Tell us about<br/><span>your project</span></h2><a className="contact-arrow" href="#contact-details" aria-label="View contact email addresses"><ArrowUpRight strokeWidth={1}/></a></div><div className="contact-details" id="contact-details"><p>Email us with a brief description of your project,<br/>your timeline, and any references you have.</p><div className="contact-emails">{studio.emails.map(email=><a className="email-link" key={email} href={`mailto:${email}`}><span>{email}</span> <ArrowUpRight size={18}/></a>)}</div></div></section>
+   <ReviewForm/>
   </main>
   <SiteFooter/>
  </div>;
